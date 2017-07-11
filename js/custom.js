@@ -27,9 +27,6 @@ jQuery(document).ready(function($) {
 		},
 			scrollOffset: 0		
 	});
-	
-	// prettyPhoto
-	$("a[data-pretty^='prettyPhoto']").prettyPhoto();		
 
     // Localscrolling 
 	$('#menu-main, .brand').localScroll();
@@ -133,6 +130,9 @@ jQuery(document).ready(function($) {
 		smootheHeight:true,						
 		useCSS: false
 	});
+
+	// fitvids load
+	$(".container").fitVids();
 });
 	
 	

@@ -1,0 +1,27 @@
+HEADER
+1) Add logo at the top (above the slider) and for the website icon
+2) Add sentences at the top (below the logo)
+3) Add image behind the logo/sentences
+
+QUOTE WITH COFFEE
+1) Write meaningful quotation (or remove this section entirely)
+
+WHO WE ARE
+1) Write 'Who we are' section and add a new image (or remove it)
+2) Add our pictures below
+
+SERVICES
+1) Add what kind of services we provide (food rendering, ecommerce, ecc)
+
+QUOTE WITH ROCKET
+1) Write meaningful sentence (or remove this section entirely)
+
+DOWNLOAD
+1) Write meaningful description
+2) Add real image of the app+logo
+
+GET IN TOUCH
+1) Write sentence here, is the form enough?
+
+FOOTER
+1) Add right social media info
