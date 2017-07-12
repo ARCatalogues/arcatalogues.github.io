@@ -24,4 +24,4 @@ GET IN TOUCH
 1) Write sentence here, is the form enough?
 
 FOOTER
-1) Add right social media info (insta, fb, email, (others ?))
+1) Add right social media info (insta, fb, email, (others ?)) - DONE
