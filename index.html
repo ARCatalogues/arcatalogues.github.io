@@ -80,13 +80,13 @@
     <section class="spacer green">
         <div class="container">
             <div class="row">
-                <div class="span6 alignright flyLeft">
+                <div class="span6 alignright flyLeft" id="firstQuote">
                     <blockquote class="large">
                         There's huge space beetween creativity and imagination
                         <cite>Mark Simmons, Nett Media</cite>
                     </blockquote>
                 </div>
-                <div class="span6 aligncenter flyRight">
+                <div class="span6 aligncenter flyRight" id="firstQuoteImage">
                     <i class="icon-coffee icon-10x"></i>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="span2 offset1 flyIn">
+                <div class="span2 offset1 flyIn" id="firstPerson">
                     <div class="people">
                         <img class="team-thumb img-circle" src="img/team/img-1.jpg" alt="" />
                         <h3>John Doe</h3>
@@ -122,7 +122,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="span2 flyIn">
+                <div class="span2 flyIn" id="secondPerson">
                     <div class="people">
                         <img class="team-thumb img-circle" src="img/team/img-2.jpg" alt="" />
                         <h3>Mike Doe</h3>
@@ -131,7 +131,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="span2 flyIn">
+                <div class="span2 flyIn" id="thirdPerson">
                     <div class="people">
                         <img class="team-thumb img-circle" src="img/team/img-3.jpg" alt="" />
                         <h3>Neil Doe</h3>
@@ -140,7 +140,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="span2 flyIn">
+                <div class="span2 flyIn" id="fourthPerson">
                     <div class="people">
                         <img class="team-thumb img-circle" src="img/team/img-4.jpg" alt="" />
                         <h3>Mark Joe</h3>
@@ -149,7 +149,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="span2 flyIn">
+                <div class="span2 flyIn" id="fifthPerson">
                     <div class="people">
                         <img class="team-thumb img-circle" src="img/team/img-5.jpg" alt="" />
                         <h3>Stephen B</h3>
@@ -169,7 +169,7 @@
             <h4>Services</h4>
             <!-- Four columns -->
             <div class="row">
-                <div class="span3 animated-fast flyIn">
+                <div class="span3 animated-fast flyIn" id="firstService">
                     <div class="service-box">
                         <img src="img/icons/laptop.png" alt="" />
                         <h2>Web design</h2>
@@ -178,7 +178,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="span3 animated flyIn">
+                <div class="span3 animated flyIn" id="secondService">
                     <div class="service-box">
                         <img src="img/icons/lab.png" alt="" />
                         <h2>Web development</h2>
@@ -187,7 +187,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="span3 animated-fast flyIn">
+                <div class="span3 animated-fast flyIn" id="thirdService">
                     <div class="service-box">
                         <img src="img/icons/camera.png" alt="" />
                         <h2>Photography</h2>
@@ -196,7 +196,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="span3 animated-slow flyIn">
+                <div class="span3 animated-slow flyIn" id="fourthService">
                     <div class="service-box">
                         <img src="img/icons/basket.png" alt="" />
                         <h2>Ecommerce</h2>
@@ -225,12 +225,12 @@
     <section class="spacer bg3">
         <div class="container">
             <div class="row">
-                <div class="span12 aligncenter flyLeft">
+                <div class="span12 aligncenter flyLeft" id="secondQuote">
                     <blockquote class="large">
                         We are an established and trusted web agency with a reputation for commitment and high integrity
                     </blockquote>
                 </div>
-                <div class="span12 aligncenter flyRight">
+                <div class="span12 aligncenter flyRight" id="secondQuoteImage">
                     <i class="icon-rocket icon-10x"></i>
                 </div>
             </div>
@@ -242,10 +242,10 @@
         <div class="container">
             <h4>Download</h4>
             <div class="row">
-                <div class="span6 flyIn">
+                <div class="span6 flyIn" id="downloadImage">
                     <img src="./img/download/apps.png" style="max-width: 100%; vertical-align: middle;">
                 </div>
-                <div class="span6 flyIn">
+                <div class="span6 flyIn" id="downloadText">
                     <h3 style="text-align: center;">Try the ARCatalogues food app</h3>
                     <br />
                     <span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</span>
@@ -297,7 +297,7 @@
                                         <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                                         <div class="validation"></div>
                                     </div>
-                                    <input type="submit" value="Send message" class="btn btn-theme pull-left">
+                                    <input type="submit" value="Send message" class="btn btn-theme pull-right" id="contactUsButton">
                                 </div>
                             </div>
                         </form>
@@ -338,7 +338,6 @@
     <script src="js/animate.js"></script>
     <script src="js/validate.js"></script>
     <script src="js/custom.js"></script>
-    <script src="contactform/contactform.js"></script>
 </body>
 
 </html>
