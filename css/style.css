@@ -164,6 +164,7 @@ a.scrollup i:hover {
 /*---------- forms ----------*/
 
 input[type=text],
+input[type=email],
 input[type=submit],
 textarea {
   width: 100%;
@@ -1105,8 +1106,8 @@ section#about {
 }
 
 #contact-form input[type=text],
+#contact-form input[type=email]
 .contactForm textarea {
-  background: rgba(227, 231, 228, 1);
   font-family: 'Open Sans', sans serif;
   border: 0;
   font-size: 16px;
@@ -1119,6 +1120,7 @@ section#about {
 }
 
 #contact-form input[type=text]:focus,
+#contact-form input[type=email]:focus,
 .contactForm textarea:focus {
   background: #fff;
   color: #555;
@@ -1130,7 +1132,7 @@ section#about {
   -webkit-transition: background 0.25 ease-in;
 }
 
-#contact-form input[type=text] {
+#contact-form input[type=text], #contact-form input[type=email] {
   height: 60px;
   margin-bottom: 30px;
 }
