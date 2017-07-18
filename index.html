@@ -1,15 +1,30 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>ARC - Augmented Reality Catalogs</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="color/default.css" rel="stylesheet">
+    <title>Creative - Start Bootstrap Theme</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -18,284 +33,105 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
-    <!-- navbar -->
-    <div class="navbar-wrapper">
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
-                    <!-- Responsive navbar -->
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+<body id="page-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">ARCatalogs</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#demo">Demo</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="/business">For Business</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">CFood</h1>
+                <hr>
+                <p>The new interactive way for exploring Restaurants Menus in 3D</p>
+                <a href="#" class="u-inline-block" target="_blank">
+                    <img src="./img/play-store.svg" width="140" height="50" alt="Download the app on the Play Store">
+                </a>
+                <a href="#" class="u-inline-block u-gap-right" target="_blank">
+                    <img src="./img/apple-store.svg" width="140" height="50" alt="Download the app on the App Store">
+                </a>
+            </div>
+        </div>
+    </header>
+    <section id="demo">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Demo Video</h2>
+                    <a class="popup-youtube" href="http://www.youtube.com/watch?v=QmuJb9KgmLY">
+                        <i class="fa fa-play-circle sr-icons"></i>
                     </a>
-                    <h1 class="brand">
-                        <a href>ARC</a>
-                    </h1>
-                    <!-- navigation -->
-                    <nav class="pull-right nav-collapse collapse">
-                        <ul id="menu-main" class="nav">
-                            <li><a title="services" href="#services">Services</a></li>
-                            <li><a title="works" href="#works">Portfolio</a></li>
-                            <li><a title="team" href="#about">About</a></li>
-                            <li><a title="download" href="#download">Download</a></li>
-                            <li><a title="contact" href="#contact">Contact</a></li>
-                        </ul>
-                    </nav>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Header area -->
-    <div id="header-wrapper" class="header-slider">
-        <header class="clearfix">
-            <div class="logo">
-                <img src="img/logo-image.png" alt="" />
-            </div>
-            <div class="container">
+    </section>
+    <section id="services">
+        <div class="service-right-image">
+            <div class="container ">
                 <div class="row">
-                    <div class="span12">
-                        <ul class="bxslider">
-                            <li>
-                                <p class="home-slide-content">
-                                    It's the <strong>21st century</strong>
-                                </p>
-                            </li>
-                            <li>
-                                <p class="home-slide-content">
-                                    There's been a flood of new <strong>technological integration</strong> into virtually every industry.
-                                </p>
-                            </li>
-                            <li>
-                                <p class="home-slide-content">
-                                    How will your business <strong>stay afloat?</strong>
-                                </p>
-                            </li>
-                        </ul>
+                    <div class="col-lg-5 col-sm-6">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading">Discover new places</h2>
+                        <p class="lead">Browse restaurants by category, country, or just select the kind of food you like most.</p>
                     </div>
-                </div>
-            </div>
-        </header>
-    </div>
-    <!-- section: services -->
-    <section id="services" class="section orange">
-        <div class="container">
-            <h4>Services</h4>
-            <!-- Four columns -->
-            <div class="row">
-                <div class="span3 animated-fast flyIn" id="firstService">
-                    <div class="service-box">
-                        <img src="img/icons/customer.png" alt="" />
-                        <h2>Improved Customer Experience</h2>
-                        <p>
-                            Customers can enjoy menus in its entirety, in a more interactive and immersive way
-                        </p>
-                    </div>
-                </div>
-                <div class="span3 animated flyIn" id="secondService">
-                    <div class="service-box">
-                        <img src="img/icons/waiter.png" alt="" />
-                        <h2>Efficient Logistics</h2>
-                        <p>
-                            Wait staff will have more time to focus on physical tasks
-                        </p>
-                    </div>
-                </div>
-                <div class="span3 animated-fast flyIn" id="thirdService">
-                    <div class="service-box">
-                        <img src="img/icons/rating.png" alt="" />
-                        <h2>Reputation and Exposure</h2>
-                        <p>
-                            Increase your brand reputation by adding more technology inside your restaurant
-                        </p>
-                    </div>
-                </div>
-                <div class="span3 animated-slow flyIn" id="fourthService">
-                    <div class="service-box">
-                        <img src="img/icons/analytics.png" alt="" />
-                        <h2>Detailed Feedback</h2>
-                        <p>
-                            Get insights about dishes that have the biggest success
-                        </p>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                        <img class="img-responsive" src="img/map.jpg" alt="Discover new places">
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- end section: services -->
-    <!-- section: works -->
-    <section id="works" class="section">
-        <div class="container clearfix">
-            <h4>Our Works</h4>
-            <h2>Japanese Restaurant Prototype</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/QmuJb9KgmLY" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </section>
-    <!-- spacer section -->
-    <section class="spacer green">
-        <div class="container">
-            <div class="row">
-                <div class="span6 alignright flyLeft" id="firstQuote">
-                    <blockquote>
-                        I do think that a significant portion of the population of developed countries, and eventually all countries, will have AR experiences every day, almost like eating three meals a day. It will become that much a part of you, it will happen in a big way, and we will wonder when it does, how we ever lived without it. Like we wonder how we lived without our phone today.
-                        <cite>Tim Cook, Apple CEO</cite>
-                    </blockquote>
-                </div>
-                <div class="span6 aligncenter flyRight" id="firstQuoteImage">
-                    <i class="icon-camera-retro icon-10x"></i>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end spacer section -->
-    <!-- section: team -->
-    <section id="about" class="section">
-        <div class="container">
-            <h4>Who We Are</h4>
-            <div class="row">
-                <div class="span4 offset1">
-                    <div>
-                        <h2>We live with <strong>creativity</strong></h2>
-                        <p>
-                            We are a group of diverse, passionate and dedicated entrepreneurs that seek to add value to businesses and their customers through integrating cutting edge Augmented Reality technology in creative ways into as many facets of industries as possible.
-                        </p>
+        <div class="service-left-image">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading">Menus popping out of your screen</h2>
+                        <p class="lead">Browse the menu of the restaurant, and look at the items as if they were real. Just by using the camera of your smartphone, dishes will come to life when you scan them</p>
                     </div>
-                </div>
-                <div class="span6">
-                    <div class="aligncenter">
-                        <img src="img/icons/creativity.png" alt="" />
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="span2 offset1 flyIn" id="firstPerson">
-                    <div class="people">
-                        <img class="team-thumb img-circle" src="img/team/img-1.jpg" alt="" />
-                        <h3>Francesco Maggiolino</h3>
-                        <p>
-                            CEO / Backend Developer
-                        </p>
-                    </div>
-                </div>
-                <div class="span2 flyIn" id="secondPerson">
-                    <div class="people">
-                        <img class="team-thumb img-circle" src="img/team/img-2.jpg" alt="" />
-                        <h3>Tommaso Pifferi</h3>
-                        <p>
-                            Frontend Developer
-                        </p>
-                    </div>
-                </div>
-                <div class="span2 flyIn" id="thirdPerson">
-                    <div class="people">
-                        <img class="team-thumb img-circle" src="img/team/img-3.jpg" alt="" />
-                        <h3>Arsalan Qureshi</h3>
-                        <p>
-                            CMO / Creative Director
-                        </p>
-                    </div>
-                </div>
-                <div class="span2 flyIn" id="fourthPerson">
-                    <div class="people">
-                        <img class="team-thumb img-circle" src="img/team/img-4.jpg" alt="" />
-                        <h3>Fan Huafeng</h3>
-                        <p>
-                            CDO / UI/UX designer
-                        </p>
-                    </div>
-                </div>
-                <div class="span2 flyIn" id="fifthPerson">
-                    <div class="people">
-                        <img class="team-thumb img-circle" src="img/team/img-5.jpg" alt="" />
-                        <h3>Ruttanun Telephone Sean Wei</h3>
-                        <p>
-                            CBO
-                        </p>
+                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                        <img class="img-responsive" src="img/interaction.jpg" alt="Interact with the menus">
                     </div>
                 </div>
             </div>
         </div>
-        <!-- /.container -->
-    </section>
-    <!-- end section: team -->
-    <!-- spacer section -->
-    <section class="spacer bg3">
-        <div class="container">
-            <div class="row">
-                <div class="span12 aligncenter flyLeft" id="secondQuote">
-                    <blockquote class="large">
-                        PLACEHOLDER
-                    </blockquote>
-                </div>
-                <div class="span12 aligncenter flyRight" id="secondQuoteImage">
-                    <i class="icon-rocket icon-10x"></i>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end spacer section -->
-    <!-- section: download -->
-    <section id="download" class="section">
-        <div class="container">
-            <h4>Download</h4>
-            <div class="row">
-                <div class="span6 flyIn" id="downloadImage">
-                    <img src="./img/download/apps.png" style="max-width: 100%; vertical-align: middle;">
-                </div>
-                <div class="span6 flyIn" id="downloadText">
-                    <h3 style="text-align: center;">Try the ARCatalogues food app</h3>
-                    <br />
-                    <span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</span>
-                    <br />
-                    <br />
-                    <a href="https://itunes.apple.com/us/app/kabaq-augmented-reality-food/id1169630776?mt=8" class="u-inline-block u-gap-right" target="_blank">
-                        <img src="./img/download/apple-store.svg" width="140" height="50" alt="Download the app on the App Store">
-                    </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.pandora.Kabaq_Augmented_Reality_Food&hl=en" class="u-inline-block" target="_blank">
-                        <img src="./img/download/play-store.svg" width="140" height="50" alt="Download the app on the Play Store">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end section: download -->
-    <!-- section: contact -->
-    <section id="contact" class="section green">
-        <div class="container">
-            <h4>Get in Touch</h4>
-            <p>
-                Please don’t hesitate at all to reach out to us to discuss what we could do for your business. If necessary, we can also create a demo specific to your business.
-            </p>
-            <div class="blankdivider30">
-            </div>
-            <div class="row">
-                <div class="span12">
-                    <div class="cform" id="contact-form">
-                        <form action="https://formspree.io/arcatalogs@gmail.com" method="post" role="form" class="contactForm">
-                            <div class="row">
-                                <div class="span6">
-                                    <div class="field form-group">
-                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" />
-                                    </div>
-                                    <div class="field form-group">
-                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required/>
-                                    </div>
-                                    <div class="field form-group">
-                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required/>
-                                    </div>
-                                </div>
-                                <div class="span6">
-                                    <div class="field form-group">
-                                        <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                                    </div>
-                                    <input type="submit" value="Send message" class="btn btn-theme pull-right" id="contactUsButton">
-                                </div>
-                            </div>
-                        </form>
+        <div class="service-right-image">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading">Rate the single dishes</h2>
+                        <p class="lead">Leave reviews and feedbacks, so that you can share your thoughts about the single dishes</p>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                        <img class="img-responsive" src="img/feedback.jpg" alt="Give feedback">
                     </div>
                 </div>
-                <!-- ./span12 -->
             </div>
         </div>
     </section>
@@ -306,17 +142,27 @@
                     <ul class="social-networks">
                         <li>
                             <a href="https://www.facebook.com/Augmented-Reality-Catalogs-ARC-1481483531945950/">
-                                <i class="icon-circled icon-bgdark icon-facebook icon-2x"></i>
+                                <i class="fa fa-2x fa-facebook icon-circled icon-bgdark icon-2x"></i>
                             </a>
                         </li>
                         <li>
                             <a href="https://instagram.com/arcatalogs">
-                                <i class="icon-circled icon-bgdark icon-instagram icon-2x"></i>
+                                <i class="fa fa-2x fa-instagram icon-circled icon-bgdark icon-2x"></i>
                             </a>
                         </li>
                         <li>
                             <a href="https://twitter.com/ARCatalogs">
-                                <i class="icon-circled icon-bgdark icon-twitter icon-2x"></i>
+                                <i class="fa fa-2x fa-twitter icon-circled icon-bgdark icon-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:arcatalogs@gmail.com">
+                                <i class="fa fa-2x fa-envelope icon-circled icon-bgdark icon-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+17145953978">
+                                <i class="fa fa-2x fa-phone icon-circled icon-bgdark icon-2x"></i>
                             </a>
                         </li>
                     </ul>
@@ -326,20 +172,18 @@
                 </div>
             </div>
         </div>
-        <!-- ./container -->
     </footer>
-    <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.scrollTo.js"></script>
-    <script src="js/jquery.nav.js"></script>
-    <script src="js/jquery.localscroll-1.2.7-min.js"></script>
-    <script src="js/jquery.bxslider.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery.fitvids.js"></script>
-    <script src="js/isotope.js"></script>
-    <script src="js/inview.js"></script>
-    <script src="js/animate.js"></script>
-    <script src="js/custom.js"></script>
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/fitvids/jquery.fitvids.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
 </body>
 
 </html>

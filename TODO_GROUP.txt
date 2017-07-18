@@ -1,6 +1,0 @@
-SERVICES
-1) Add correct icons
-
-DOWNLOAD
-1) Write meaningful description
-2) Add real image of the app+logo
