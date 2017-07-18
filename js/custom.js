@@ -151,6 +151,7 @@ jQuery(document).ready(function ($) {
   // bxslider load
   $('.bxslider').bxSlider({
     mode: 'vertical',
+    touchEnabled: false,
     pager: false,
     auto: true
   });

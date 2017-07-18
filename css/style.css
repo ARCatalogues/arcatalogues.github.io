@@ -32,9 +32,11 @@ CONTENTS:
 
 
 
+
 /* bootstrap */
 
 @import url('bootstrap.css');
+
 
 
 
@@ -44,9 +46,11 @@ CONTENTS:
 
 
 
+
 /* prettyPhoto */
 
 @import url('prettyPhoto.css');
+
 
 
 
@@ -56,9 +60,11 @@ CONTENTS:
 
 
 
+
 /* font awesome */
 
 @import url('font-awesome.css');
+
 
 
 
@@ -68,9 +74,11 @@ CONTENTS:
 
 
 
+
 /* animation */
 
 @import url('animate.css');
+
 
 
 
@@ -117,6 +125,7 @@ body {
 ::selection {
     color: #333;
 }
+
 
 
 
@@ -181,6 +190,7 @@ a.scrollup i:hover {
 
 
 
+
 /*---------- forms ----------*/
 
 input[type=text],
@@ -202,6 +212,7 @@ select,
 textarea {
     font-family: 'Open Sans', Arial, sans-serif;
 }
+
 
 
 
@@ -351,6 +362,7 @@ h2.pagetitle {
 
 
 
+
 /* =========================================================
 03. Misc
 ============================================================ */
@@ -377,6 +389,7 @@ h2.pagetitle {
 .medium {
     font-weight: normal;
 }
+
 
 
 
@@ -465,6 +478,7 @@ ul#menu-main>li>a:focus {
 
 
 
+
 /* =========================================================
 05. Page sections
 ============================================================ */
@@ -503,7 +517,6 @@ header .logo {
 
 
 
-
 /* --- Header slider --- */
 
 .bx-wrapper {
@@ -518,6 +531,14 @@ header .logo {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
 }
 
 @media (max-width: 579px) {
@@ -545,6 +566,7 @@ header .logo {
     -o-background-size: cover;
     background-size: cover;
 }
+
 
 
 
@@ -628,6 +650,7 @@ section.inner {
 
 
 
+
 /* === section spacer === */
 
 section.spacer {
@@ -681,6 +704,7 @@ section.spacer blockquote cite {
 
 
 
+
 /* === section works === */
 
 #works h4 {
@@ -690,6 +714,7 @@ section.spacer blockquote cite {
 #portfolio {
     padding-bottom: 0;
 }
+
 
 
 
@@ -741,6 +766,7 @@ section.spacer blockquote cite {
 #filters ul li a.active h5 {
     color: #fcfcfc;
 }
+
 
 
 
@@ -890,6 +916,7 @@ section.spacer blockquote cite {
 
 
 
+
 /* === Isotope CSS3 transitions === */
 
 .isotope,
@@ -920,6 +947,7 @@ section.spacer blockquote cite {
 
 
 
+
 /**** disabling Isotope CSS3 transitions ****/
 
 .isotope.no-transition,
@@ -931,6 +959,7 @@ section.spacer blockquote cite {
     -o-transition-duration: 0s;
     transition-duration: 0s;
 }
+
 
 
 
@@ -970,6 +999,7 @@ section#services .service-box h2 {
 section#services.section.orange .service-box:hover {
     background: #f36518;
 }
+
 
 
 
@@ -1045,12 +1075,14 @@ section#blog {
 }
 
 
+
 /* === section download === */
 
 .store-image {
     -webkit-filter: blur(3px);
     filter: blur(3px);
 }
+
 
 
 
@@ -1075,6 +1107,7 @@ section#about {
     margin-top: 26px;
     text-align: center;
 }
+
 
 
 
@@ -1214,6 +1247,7 @@ div.cform-response-output {
 
 
 
+
 /* =========================================================
 06. Footer
 ============================================================ */
@@ -1282,6 +1316,7 @@ footer ul.social-networks li a i.icon-twitter:hover {
 
 
 
+
 /* =========================================================
 07. Icons
 ============================================================ */
@@ -1320,6 +1355,7 @@ i.icon-bgdark.active:hover {
 
 
 
+
 /* square */
 
 i.icon-square {
@@ -1353,6 +1389,7 @@ i.icon-square.icon-5x {
     height: 120px !important;
     line-height: 120px !important;
 }
+
 
 
 
@@ -1414,6 +1451,7 @@ i.icon-rounded {
 
 
 
+
 /* circled */
 
 i.icon-circled {
@@ -1456,6 +1494,7 @@ i.icon-circled {
 i.icon-white {
     color: #fff;
 }
+
 
 
 
@@ -1520,6 +1559,7 @@ i.icon-white {
 
 
 
+
 /* =========================================================
 08. Buttons
 ============================================================ */
@@ -1576,6 +1616,7 @@ i.icon-white {
 
 
 
+
 /* size */
 
 .btn-large {
@@ -1616,6 +1657,7 @@ i.icon-white {
     -moz-border-radius: 0;
     border-radius: 0;
 }
+
 
 
 
@@ -1781,6 +1823,7 @@ i.icon-white {
 
 
 
+
 /* button flat */
 
 .btn-flat {
@@ -1788,6 +1831,7 @@ i.icon-white {
     -moz-border-radius: 0;
     border-radius: 0;
 }
+
 
 
 
@@ -1810,6 +1854,7 @@ i.icon-white {
     width: auto;
     height: auto;
 }
+
 
 
 
@@ -1882,6 +1927,7 @@ i.icon-white {
 
 
 
+
 /* Smaller screens ----------- */
 
 @media (max-width: 480px) {
@@ -1899,6 +1945,7 @@ i.icon-white {
         width: 50%;
     }
 }
+
 
 
 

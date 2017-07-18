@@ -1,17 +1,6 @@
-HEADER
-1) Add logo at the top (above the slider) and for the website icon
-2) Add sentences at the top (below the logo)
-3) Add image behind the logo/sentences
-
-WHO WE ARE
-2) Add our pictures below
-
 SERVICES
-1) Add what kind of services we provide (food rendering, ecommerce, ecc)
+1) Add correct icons
 
 DOWNLOAD
 1) Write meaningful description
 2) Add real image of the app+logo
-
-GET IN TOUCH
-Please don’t hesitate at all to reach out to us to discuss what we could do for your business. If necessary, we can also create a a demo specific to your business. 
