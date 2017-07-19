@@ -79,7 +79,7 @@
         mainClass: 'mfp-fade',
         removalDelay: 160,
         preloader: false,
-
+        disableOn: 0,
         fixedContentPos: false
     });
 })(jQuery); // End of use strict
