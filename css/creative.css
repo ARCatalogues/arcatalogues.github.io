@@ -225,9 +225,14 @@ header .header-content .header-content-inner p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#demo .popup-youtube {
+  color: white;
+}
 #demo .popup-youtube .fa {
   font-size: 10em;
-  color: white;
+}
+#demo .popup-youtube:hover {
+  color: #cccccc;
 }
 #demo h2.section-heading {
   color: white;
