@@ -218,19 +218,9 @@ header .header-content .header-content-inner p {
 #demo {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
-  /* Parallax stuff */
-  background-image: url("../img/sushi.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 #demo .popup-youtube .fa {
   font-size: 10em;
-  color: white;
-}
-#demo h2.section-heading {
-  color: white;
 }
 #services {
   padding-top: 0px !important;
@@ -240,14 +230,7 @@ header .header-content .header-content-inner p {
   font-weight: 700;
   margin-bottom: 30px;
 }
-#download {
-  padding: 50px 0;
-}
-#download .service-left-image {
-  border-top: none !important;
-  border-bottom: none !important;
-}
-p.lead {
+#services p.lead {
   font-size: 18px;
   font-weight: 400;
 }
