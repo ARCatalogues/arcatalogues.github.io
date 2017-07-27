@@ -289,6 +289,16 @@ p.lead {
   border-top: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7;
 }
+.service-right-image .img-responsive,
+.service-left-image .img-responsive {
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .service-right-image .img-responsive,
+  .service-left-image .img-responsive {
+    max-width: 70%;
+  }
+}
 .section-heading-spacer {
   float: left;
   width: 200px;
